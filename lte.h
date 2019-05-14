@@ -165,6 +165,9 @@ typedef enum
 
 =============================================================================*/
 
+/*! @brief error codes used within LTE Access Stratum
+*/
+typedef errno_enum_type lte_errno_e;
 
 /*! @brief This defines the EPS identity as described in 36.331(RRC)
 */
@@ -182,7 +185,5 @@ typedef struct
 } lte_rb_eps_bearer_map_info_s;
 
 
-/* Test Code insert */
- 
 #endif /* LTE_H */
 
