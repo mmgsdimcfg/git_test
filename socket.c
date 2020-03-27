@@ -1,7 +1,7 @@
 #inlcude stdio.h
 #include stdlib.h
 
-void main()
+void main(argc, argv)
 {
 	printf("");
 }
